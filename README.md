@@ -38,6 +38,13 @@ El incidente consistió en que se puso un límite codificado rígidamente en el 
 
 El alcance de este error llego al 1% de todos los equipos del mundo, una estimación de 8.5 millones de equipos de varios sectores. Los mas destacados fueron el de transporte aéreo en el cual lo sistemas de los aeropuertos, presentes en aviones y demás, se pusieron o en cuarentena o dejaron de funcionar,  provocando una parada en tierra en la que ningún vuelo de las aerolíneas estadounidenses como United, Delta y American Airlines pudo despegar, mientras que, en el sector de la salud, mas de 900 sistemas de varios países se vieron afectados, provocando interrupciones en los hospitales, haciendo que se tuviera que cambiar el formato de los tramites a papel temporalmente. Además, varias cirugías y emergencias fueron cerradas o pospuestas.
 
+Solución
+CrowdStrike identificó el problema y revertio la actualización defectuosa, pero algunas máquinas necesitaron una intervención manual. Para resolver el problema se deben seguir los siguientes pasos:
+Iniciar el ordenador en modo seguro o en el entorno de recuperación de Windows.
+Acceder a la carpeta C:\Windows\System32\drivers\CrowdStrike.
+Eliminar el archivo “C-00000291*.sys”.
+Reiniciar el equipo.
+
 
 CONCLUSION
 
